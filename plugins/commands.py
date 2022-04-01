@@ -32,14 +32,14 @@ async def start(c, m, cb=False):
 
 `You can store your Telegram Media for permanent Link!`
 
+👉Not allowed porn video and photo Will be deleted within 24 hours
 
-**👲 Maintained By:** {owner.mention(style='md')}
+
 """
 
     # Buttons
     buttons = [
-        [
-            InlineKeyboardButton('My Father 👨‍✈️', url=f"https://t.me/{owner_username}"),
+        [       
             InlineKeyboardButton('Help 💡', callback_data="help")
         ],
         [
